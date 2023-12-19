@@ -56,6 +56,7 @@ class Library {
   void returnBook(int bookIndex) {
     catalog[bookIndex].isAvailable = true;
     print("${catalog[bookIndex].title} has been returned.");
+
   }
 
   void displaySummary() {
